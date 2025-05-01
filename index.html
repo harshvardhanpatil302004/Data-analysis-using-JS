@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Housing Data Regression</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1>🏡 Housing Price Prediction (Regression)</h1>
+    
+    <label for="csvUpload" class="upload-label">Upload CSV File:</label>
+    <input type="file" id="csvUpload" accept=".csv" />
+    
+    <div class="chart-container">
+      <canvas id="predictionChart"></canvas>
+    </div>
+
+    <div id="metrics" class="metrics-container"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

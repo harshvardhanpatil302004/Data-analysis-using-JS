@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #020202;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .upload-label {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  #csvUpload {
+    display: block;
+    margin: 15px auto;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+  }
+  
+  #predictionChart {
+    width: 100% !important;
+    height: 450px !important;
+  }
+  
+  .metrics-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e8f4ea;
+    border-radius: 10px;
+    font-size: 1.1em;
+  }
+  
